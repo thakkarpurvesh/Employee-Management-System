@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7d7d7"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_adjust_black_24dp"
+        android:drawableRight="@drawable/ic_adjust_black_24dp"
+        android:layout_gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:text="Leave Application"
+        android:textAlignment="center"
+        android:textColor="#0d0d0d"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        style="@style/edittext_style"
+        android:id="@+id/txtname"
+        android:hint="Email"
+        android:layout_marginTop="25dp"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/frmdate"
+            style="@style/edittext_style"
+            android:layout_width="159dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="From Date"
+            android:inputType="date" />
+        <EditText
+            style="@style/edittext_style"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/todate"
+            android:hint="To Date"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        style="@style/edittext_style"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:id="@+id/reason"
+        android:hint="Reason for leave"
+        android:fitsSystemWindows="true"
+        android:breakStrategy="balanced"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:padding="5dp" />
+
+
+    <Button
+        android:id="@+id/request"
+        style="@style/button_background"
+        android:layout_marginTop="20dp"
+        android:layout_width="295dp"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:text="Submit"
+        android:textColor="#000" />
+
+</LinearLayout>

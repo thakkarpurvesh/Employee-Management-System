@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.purvesh.employee.aboutusFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#d7d7d7">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableRight="@drawable/ic_adjust_black_24dp"
+        android:drawableLeft="@drawable/ic_adjust_black_24dp"
+        android:text="ᴀʙᴏᴜᴛ ᴜꜱ"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#171817"
+        android:textAlignment="center"
+        android:textSize="35sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:textStyle="italic"
+        android:text="@string/large_text" />
+
+</LinearLayout>
+</ScrollView>

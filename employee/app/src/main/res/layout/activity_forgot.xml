@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvesh.employee.forgotActivity"
+    android:background="#d7d7d7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trouble with logging in?"
+        android:textStyle="bold"
+        android:background="#d7d7d7"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#787474"
+        android:id="@+id/textView"
+        android:layout_marginTop="196dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your phone number"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="#787474"
+        android:id="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:background="#d7d7d7"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sd"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/edittext_style"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:hint="Mobile No"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        android:inputType="number"
+        android:textColorHint="#b1a2a2" />
+
+    <Button
+        android:id="@+id/btnFP"
+        style="@style/button_background"
+        android:layout_width="295dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/btnlog"
+        style="@style/button_background"
+        android:text="Back to Login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.purvesh.employee.RegisterActivity"
+    android:background="@drawable/animation_list"
+    android:id="@+id/regcolor">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_dialpad_black_24dp"
+        android:drawableRight="@drawable/ic_dialpad_black_24dp"
+        android:text="ʀᴇɢɪꜱᴛᴇʀ"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        style="@style/edittext_style"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="49dp"
+        android:hint="Name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        style="@style/edittext_style"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Mobile No"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        style="@style/edittext_style"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText3"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        style="@style/edittext_style"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtadd"
+        android:hint="Address"
+        android:breakStrategy="balanced"
+        android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:padding="5dp" />
+
+    <EditText
+        style="@style/edittext_style"
+        android:id="@+id/txtdob"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:hint="Date of Birth"
+        android:inputType="date"/>
+
+    <EditText
+        style="@style/edittext_style"
+        android:id="@+id/txtqln"
+        android:hint="Qualification"
+        android:drawableLeft="@drawable/ic_book_black_24dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Gender:"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/rdm"
+            android:text="Male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/rdf"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Project Language:" />
+
+    <Spinner
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="9dp"
+        android:id="@+id/editText8"
+        android:layout_marginBottom="15dp">
+
+    </Spinner>
+
+
+    <EditText
+        android:id="@+id/editText6"
+        style="@style/edittext_style"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText4"
+        android:drawableLeft="@drawable/ic_enhanced_encryption_black_24dp"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        style="@style/edittext_style"
+        android:drawableLeft="@drawable/ic_enhanced_encryption_black_24dp"
+        android:hint="Confirm Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/button_background"
+        android:layout_below="@+id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="295dp"
+        android:layout_gravity="center"
+        android:onClick="btnmove"
+        android:layout_marginBottom="15dp"
+        android:text="Submit"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>
+
+</ScrollView>

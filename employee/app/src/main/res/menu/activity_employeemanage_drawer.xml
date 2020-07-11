@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_editprofile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Edit Profile" />
+
+
+        <item
+            android:id="@+id/nav_viewtask"
+            android:icon="@drawable/u"
+            android:title="View Task" />
+
+        <item
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:id="@+id/nav_leaveview"
+            android:title="View Leave Request" />
+
+        <item
+            android:id="@+id/nav_leave"
+            android:icon="@drawable/ep"
+            android:title="Leave" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Logout" />
+
+
+            </group>
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/nav_projectmng"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Project Manager" />
+            <item
+                android:id="@+id/nav_adlogin"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                android:title="Admin Login" />
+
+    </group>
+</menu>

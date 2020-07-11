@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvesh.employee.EditprofileFragment"
+    android:orientation="vertical"
+    android:background="#d7d7d7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="211dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/gradient_back"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:id="@+id/imgUpload"
+                android:src="@drawable/profile" />
+
+            <Button
+                android:text="Select Pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnUploadImg"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:id="@+id/txtshow"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/fname"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        style="@style/edittext_style"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="49dp"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        style="@style/edittext_style"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Mobile No"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        style="@style/edittext_style"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText3"
+        android:inputType="textEmailAddress"
+        android:hint="Username"/>
+
+    <Button
+        android:id="@+id/ebtn"
+        style="@style/button_background"
+        android:layout_below="@+id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="295dp"
+        android:layout_gravity="center"
+        android:onClick="upbtn"
+        android:text="Submit"
+        tools:ignore="OnClick" />
+
+
+
+</LinearLayout>

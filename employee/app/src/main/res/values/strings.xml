@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">employee</string>
+    <string name="title_activity_employee_navigation">EmployeeNavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "
+
+
+        Thank You for choosing the application!Application      was founded in 2017.
+
+        This app allows you to view individual employee records in detail. You may also search for an employee name.
+
+        To  store  the  record  of  large number  of  employee.
+        To  decrease  the  workforce.
+        Simplify  the  task  of   maintaining  records  and  is  user  friendly  in  nature.
+
+        The development of successful system depends not only on the tools and methods but also on the developers commitment.
+        A successful system must:
+        1: Satisfy the user requirements.
+        2: Be easy to understand by user and operator.
+        3: Be easy to operate.
+        4: Have a good user interface.
+        5: Be easy to modify and expandable.
+        6: Have adequate security control.
+
+        Thank You for choosing this app. We will make this app more better with more features in future.
+        This app is developed by three engineers:
+        Thakkar Purvesh
+        Mali Jayesh
+        Mistry Ankit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "
+
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_employeemanage">employeemanageActivity</string>
+    <string name="title_activity_adminlogin">AdminloginActivity</string>
+    <string name="title_activity_project_manager_nav">Project_manager_navActivity</string>
+</resources>

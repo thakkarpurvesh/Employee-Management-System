@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.purvesh.employee.adminloginFragment"
+    android:background="#d7d7d7"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/adminn" />
+
+    <TextView
+        android:id="@+id/lg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="ᴀᴅᴍɪɴ"
+        android:textColor="#948b8b"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nm"
+        style="@style/edittext_style"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:textColor="#000000"
+        android:layout_marginTop="70dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_marginTop="35dp"
+       style="@style/edittext_style"
+        android:textColor="#000000"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_enhanced_encryption_black_24dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+
+    <Button
+        android:id="@+id/btnadmin"
+        android:layout_marginTop="25dp"
+        style="@style/button_background"
+        android:layout_width="295dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

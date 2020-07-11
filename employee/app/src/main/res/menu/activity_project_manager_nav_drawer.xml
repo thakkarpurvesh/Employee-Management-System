@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_java"
+            android:icon="@drawable/ic_laptop_mac_black_24dp"
+            android:title="Java Developer" />
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@drawable/ic_laptop_mac_black_24dp"
+            android:title="Android Developer" />
+        <item
+            android:id="@+id/nav_php"
+            android:icon="@drawable/ic_laptop_mac_black_24dp"
+            android:title="Php Developer" />
+        <item
+            android:id="@+id/nav_dotnet"
+            android:icon="@drawable/ic_laptop_mac_black_24dp"
+            android:title="DotNet Developer" />
+        <item
+            android:id="@+id/nav_addproject"
+            android:icon="@drawable/project"
+            android:title="Add Project" />
+        <item
+            android:id="@+id/nav_taskallocate"
+            android:icon="@drawable/empl"
+            android:title="Project Allocate" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
