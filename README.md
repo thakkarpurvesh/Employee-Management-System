@@ -2,37 +2,42 @@
 
 ![image](https://user-images.githubusercontent.com/59681647/87218801-ac718e80-c373-11ea-83ff-e853d1f0e0a7.png)
 
-* This app allows you to view individual employee records in detail. To  store  the  record  of  large number  of  employee. To  decrease  the  workforce. Simplify  the  task  of   maintaining  records  and  is  user  friendly  in  nature.
+* This app allows you to view individual employee records in detail. 
+* To  store  the  record  of  large number  of  employee. 
+* To  decrease  the  workforce.
+* Simplify  the  task  of   maintaining  records  and  is  user  friendly  in  nature.
 
 <h2>Screenshots</h2>
 
-![image](https://user-images.githubusercontent.com/59681647/87218541-5b609b00-c371-11ea-86d0-2be1792b10a4.png)
+![image](https://user-images.githubusercontent.com/59681647/87221998-df288080-c38d-11ea-82d1-f14acfb0be09.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218550-89de7600-c371-11ea-81e7-69094f8c8559.png)
+![image](https://user-images.githubusercontent.com/59681647/87222006-ecde0600-c38d-11ea-9efb-27308a49fdc5.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218609-007b7380-c372-11ea-8d74-26c13b924630.png)
+![image](https://user-images.githubusercontent.com/59681647/87222014-f5ced780-c38d-11ea-8a25-956c4d2f3b4f.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218623-1721ca80-c372-11ea-8a42-fb8fe0307019.png)
+![image](https://user-images.githubusercontent.com/59681647/87222018-febfa900-c38d-11ea-97a8-b29529325651.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218617-0cffcc00-c372-11ea-9378-a54714e84bcc.png)
+![image](https://user-images.githubusercontent.com/59681647/87222026-08e1a780-c38e-11ea-855d-0f6ad8951216.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218631-20129c00-c372-11ea-9edd-0521e0781659.png)
+![image](https://user-images.githubusercontent.com/59681647/87222036-1bf47780-c38e-11ea-8fa1-1f9b47bfdeb8.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218637-2a349a80-c372-11ea-962c-2552186e1b2e.png)
+![image](https://user-images.githubusercontent.com/59681647/87222044-27e03980-c38e-11ea-9a5a-1c0c45d345bd.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218642-33be0280-c372-11ea-921d-33adc91d32fb.png)
+![image](https://user-images.githubusercontent.com/59681647/87222051-36c6ec00-c38e-11ea-8b8b-3e71b4e4f20b.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218648-3de00100-c372-11ea-9d67-bdf60c616580.png)
+![image](https://user-images.githubusercontent.com/59681647/87222058-42b2ae00-c38e-11ea-8fc3-c0cf243c88f0.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218652-46d0d280-c372-11ea-8d5b-6cdc5d3e7949.png)
+![image](https://user-images.githubusercontent.com/59681647/87222071-5f4ee600-c38e-11ea-9fa2-4d9c45e5fb2e.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218658-518b6780-c372-11ea-8ddf-baaaee0bd409.png)
+![image](https://user-images.githubusercontent.com/59681647/87222084-6bd33e80-c38e-11ea-97a8-2a05258e84f7.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218662-594b0c00-c372-11ea-9474-e35a59fe47c4.png)
+![image](https://user-images.githubusercontent.com/59681647/87222087-7392e300-c38e-11ea-8e72-2389dfc7375c.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218667-60721a00-c372-11ea-9b91-f4f9dba05d4e.png)
+![image](https://user-images.githubusercontent.com/59681647/87222092-80173b80-c38e-11ea-9f68-cb195ced5f4c.png)
 
-![image](https://user-images.githubusercontent.com/59681647/87218673-6bc54580-c372-11ea-9363-3ca87d5bfb40.png)
+![image](https://user-images.githubusercontent.com/59681647/87222099-93c2a200-c38e-11ea-8040-2c3ac17e9330.png)
+
+
 
 -------------------------
 <h3>Project Manager</h3>
