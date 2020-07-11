@@ -44,3 +44,6 @@
 <h4>Username : admin</h4>
 <h4>Password : admin</h4>
 -------------------------
+<h4>Contact for any query</h4>
+<h5>Mobile No.: 8460280590</h5>
+<h5>Email id: thakkarpurvesh1997@gmail.com</h5>
