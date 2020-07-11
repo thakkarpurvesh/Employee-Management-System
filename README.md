@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/59681647/87218801-ac718e80-c373-11ea-83ff-e853d1f0e0a7.png)
 
+* This app allows you to view individual employee records in detail. To  store  the  record  of  large number  of  employee. To  decrease  the  workforce. Simplify  the  task  of   maintaining  records  and  is  user  friendly  in  nature.
+
 <h2>Screenshots</h2>
 
 ![image](https://user-images.githubusercontent.com/59681647/87218541-5b609b00-c371-11ea-86d0-2be1792b10a4.png)
